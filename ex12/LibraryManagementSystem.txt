@@ -1,0 +1,40 @@
+PS C:\Users\mngok> cd "c:\Users\mngok\OneDrive\Documents\Lab - Program Files\OOP - Lab\ex12\" ; if ($?) { javac LibraryManagementSystem.java } ; if ($?) { java LibraryManagementSystem }
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 1
+ID, Title, Author: 101
+Let Us C
+Yashvant Kanetkar
+Added: Let Us C
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 2
+ID, Name: 1
+Arun
+Added: Arun
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 3
+BookID, MemberID: 101
+1
+Issued "Let Us C" to Arun
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 3
+BookID, MemberID: 101
+1
+Exception: Book "Let Us C" is already issued to Arun
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 5
+ID: 101 | Let Us C by Yashvant Kanetkar | Issued to Arun
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 4
+BookID, MemberID: 101
+1
+Returned "Let Us C"
+
+1.AddBook 2.AddMember 3.Issue 4.Return 5.Display 6.MemberBooks 7.Exit
+Choice: 7
+Exit.
